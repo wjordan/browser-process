@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES3",
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "typings/DataView.d.ts",
+    "typings/tsd.d.ts",
+    "src/api_error.ts",
+    "src/node_eventemitter.ts",
+    "src/node_process.ts"
+  ]
+}
